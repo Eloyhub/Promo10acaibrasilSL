@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Açaiteria - Ganhe 10% de Desconto!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #6A0572;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta button {
+            background-color: #6A0572;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cta button:hover {
+            background-color: #50045A;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form input, form select, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        form button {
+            background-color: #6A0572;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #50045A;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ganhe 10% de Desconto na Nossa Açaiteria!</h1>
+        <p>Preencha o formulário e aproveite!</p>
+    </header>
+    <div class="container">
+        <form action="https://example.com/submit" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="whatsapp">WhatsApp:</label>
+            <input type="tel" id="whatsapp" name="whatsapp">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" name="bairro" required>
+
+            <label>
+                <input type="checkbox" name="lgpd" required>
+                Concordo com o uso dos meus dados para receber promoções (LGPD).
+            </label>
+
+            <button type="submit">Enviar e Ganhar Desconto</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Açaiteria. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
